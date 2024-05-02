@@ -1,1 +1,44 @@
+aof Instructions
 
+1). Type decleration instructions 
+2). Arthimetic instructions
+3). Control instructions
+
+1). Type decleration instruction
+int a;
+int b;
+
+other variations :
+
+int i = 10; int y = i; int a = 2;
+int y = a + y -i;
+float b = a + 3; float a = i.1; => Error ! as we trying to use  a before defining it.
+
+2). Arthimetic instructions 
+
+operands can be int/float etc.
+ ( + - * / ) are arthimatic operators
+
+ int b = 2, c = 3;
+ intz;Z = b * c ; => Legal
+ int Z; b * c = z; => illegal (not allowed)
+
+ % --> Modular division operator
+ % --> Returns the reminder
+ % --> Cannot be applied on float
+ % --> sign is same as of numerator (-5%2=-1)
+
+ Note :-
+
+ ~ No operator assumed to be present
+ int i = ab --> invalid
+ int i = a * b --> valid
+ 
+ ~ There is  operator to preform exponentiation in C. However we can use pow (x,y) from <math.h> 
+
+ Type Conversion
+
+ An Arthimatic operator b/w 
+ int and int --> int
+ int and float --> float
+ float and float --> float
