@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-c program to find the size of int, float, double, char 
+// c program to find the size of int, float, double, char 
 
 int main() {
     printf("Size of int: %lu bytes\n", sizeof(int));
