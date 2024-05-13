@@ -1,0 +1,8 @@
+So far the operations using the C program are done on a prompt/terminal which is not stored anywhere. The output is deleted when the program is closed. But in the software industry, most programs are written to store the information fetched from the program. The use of file handling is exactly what the situation calls for.
+
+In order to understand why file handling is important, let us look at a few features of using files:
+
+Reusability: The data stored in the file can be accessed, updated, and deleted anywhere and anytime providing high reusability.
+Portability: Without losing any data, files can be transferred to another in the computer system. The risk of flawed coding is minimized with this feature.
+Efficient: A large amount of input may be required for some programs. File handling allows you to easily access a part of a file using few instructions which saves a lot of time and reduces the chance of errors.
+Storage Capacity: Files allow you to store a large amount of data without having to worry about storing everything simultaneously in a program.
